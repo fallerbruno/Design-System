@@ -35,11 +35,11 @@ $ npm run dev
 - [x] Avatar
 - [x] Multistep
 - [x] Tooltip
-- [ ] Toast
-- [ ] Modal
-- [ ] Table
+- [ ] Toast ⏳
+- [ ] Modal ⏳
+- [ ] Table ⏳
 
-## 🧩 Tokens (disponíveis e planejados)
+## 💎 Tokens (disponíveis e planejados)
 
 - [x] Colors
 - [x] FontSize
@@ -48,9 +48,9 @@ $ npm run dev
 - [x] LineHeights
 - [x] Radius
 - [x] Space
-- [ ] Opacity
-- [ ] BoxShadow
-- [ ] Animation
-- [ ] BreakPoints
+- [ ] Opacity ⏳
+- [ ] BoxShadow ⏳
+- [ ] Animation ⏳
+- [ ] BreakPoints ⏳
 
 <br>
