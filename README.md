@@ -5,17 +5,20 @@ Design System para utilização em projetos pessoais :sparkles: <br>
 
 ## :gear: Como rodar
 
-Para verificar o Storybook, tokens e componentes, [clique aqui](https://fallerbruno.github.io/Design-System/?path=/docs/home--docs), para rodar, siga o tutorial abaixo com o [Node](https://nodejs.org/en/), [Yarn](https://yarnpkg.com/) e [Git](https://git-scm.com/) instalados:
+Para verificar o Storybook, tokens e componentes, [clique aqui](https://fallerbruno.github.io/Design-System/?path=/docs/home--docs), para rodar, siga o tutorial abaixo com o [Node](https://nodejs.org/en/) e [Git](https://git-scm.com/) instalados:
 
 ```bash
 # Clone esse repositório
 $ git clone https://github.com/fallerbruno/Design-System.git
 
 # Instale as dependências do projeto, assim como suas tipagens
-$ yarn
+$ npm install
 
-# Execute a aplicação
-$ yarn dev
+# Buildar a aplicação
+$ npm run build
+
+# Executar a aplicação
+$ npm run dev
 
 # O site inciará na porta:3000 - acesse http://localhost:3000
 ```
@@ -35,7 +38,6 @@ $ yarn dev
 - [ ] Toast
 - [ ] Modal
 - [ ] Table
-- [ ]
 
 ## 🧩 Tokens (disponíveis e planejados)
 
