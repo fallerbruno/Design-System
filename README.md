@@ -1,46 +1,54 @@
-# SOLIDJS
+Design System para utilização em projetos pessoais :sparkles: <br>
+**Aplicação construída no Projeto 05 do Ignite (Trilha React), promovido pela Rocketseat** 🚀
 
-# TSUP => 
-npm i tsup 
-Converte para varios formatos diferentes.
+> :hammer_and_wrench: Tecnologias e ferramentas: **TypeScript, React, Stitches, RadixUI, TurboRepo, Phosphor (icons), Storybook**
 
-# MONOREPO =>
-package global privado onde tem os workspaces liberados
+## :gear: Como rodar
 
-# SCRIPTS
+Para verificar o Storybook, tokens e componentes, [clique aqui](https://fallerbruno.github.io/Design-System/?path=/docs/home--docs), para rodar, siga o tutorial abaixo com o [Node](https://nodejs.org/en/), [Yarn](https://yarnpkg.com/) e [Git](https://git-scm.com/) instalados:
 
-"build": "tsup src/index.ts --format cjs,esm --dts",
-"dev": "tsup src/index.ts --format cjs,esm --dts-watch "
+```bash
+# Clone esse repositório
+$ git clone https://github.com/fallerbruno/Design-System.git
 
-# Componentes
+# Instale as dependências do projeto, assim como suas tipagens
+$ yarn
 
-[ ]Text
-[ ]Heading
-[ ]Box ou Card
-[ ]Button
-[ ]TextInput
-[ ]TextArea
-[ ]Checkbox
-[ ]Avatar
-[ ]MultiStep
+# Execute a aplicação
+$ yarn dev
 
-# TOKENS
+# O site inciará na porta:3000 - acesse http://localhost:3000
+```
 
-[ ]Opacity
-[ ]BoxShadow
-[ ]Animation
-[ ]BreakPoints
-[x]Colors
-[x]FontSize
-[x]FontWeight
-[x]Fonts
-[x]LineHeights
-[x]Radius
-[x]Space
+## 🧩 Componentes (disponíveis e planejados)
 
-# STORYBOOK
-pasta docs
+- [x] Text
+- [x] Heading
+- [x] Box
+- [x] Button
+- [x] TextInput
+- [x] TextArea
+- [x] Checkbox
+- [x] Avatar
+- [x] Multistep
+- [x] Tooltip
+- [ ] Toast
+- [ ] Modal
+- [ ] Table
+- [ ]
 
-npx sb init --builder @storybook/builder-vite --type react --use-npm
+## 🧩 Tokens (disponíveis e planejados)
 
+- [x]Colors
+- [x]FontSize
+- [x]FontWeight
+- [x]Fonts
+- [x]LineHeights
+- [x]Radius
+- [x]Space
+- [ ]Opacity
+- [ ]BoxShadow
+- [ ]Animation
+- [ ]BreakPoints
 
+<br>
