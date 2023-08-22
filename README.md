@@ -39,16 +39,16 @@ $ yarn dev
 
 ## 🧩 Tokens (disponíveis e planejados)
 
-- [x]Colors
-- [x]FontSize
-- [x]FontWeight
-- [x]Fonts
-- [x]LineHeights
-- [x]Radius
-- [x]Space
-- [ ]Opacity
-- [ ]BoxShadow
-- [ ]Animation
-- [ ]BreakPoints
+- [x] Colors
+- [x] FontSize
+- [x] FontWeight
+- [x] Fonts
+- [x] LineHeights
+- [x] Radius
+- [x] Space
+- [ ] Opacity
+- [ ] BoxShadow
+- [ ] Animation
+- [ ] BreakPoints
 
 <br>
