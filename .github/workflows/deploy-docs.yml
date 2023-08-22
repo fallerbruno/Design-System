@@ -1,0 +1,29 @@
+name: Deploy docs
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build and deploy
+      
+      - name: Setup Node.js
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - run: npm ci
+
+      - run: npm run build
+
+      - name: Deploy Storybook to GitHub Pages
+        working-directory: ./packages/docs
+         run: touch storybook-static/.nojekyll && npm run deploy-storybook -- --ci --existing-output-dir=storybook-static
+        env:
+          CI: true
+         GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
