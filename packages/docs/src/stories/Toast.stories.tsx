@@ -1,14 +1,32 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Toast, ToastProps } from '@faller-bruno-ui/react'
+import { Button, Toast, ToastProps } from '@faller-bruno-ui/react'
+import { useState } from 'react'
+
+const DemoToast = (props: ToastProps) => {
+  const [isOpen, setOpen] = useState(false)
+
+  return (
+    <div>
+      <Button
+        onClick={() => {
+          setOpen(true)
+        }}
+      >
+        Abrir
+      </Button>
+      <Toast open={isOpen} onOpenChange={setOpen} {...props} />
+    </div>
+  )
+}
 
 export default {
   title: 'Data display/Toast',
-  component: Toast,
+  component: DemoToast,
   tags: ['autodocs'],
   args: {
     title: 'Toast dispatch',
     description: 'The message has been dispatch...',
-    open: true,
+    isOpen: true,
     type: 'primary',
   },
   argTypes: {

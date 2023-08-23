@@ -1,5 +1,11 @@
 # @faller-bruno-ui/react
 
+## 3.2.2
+
+### Patch Changes
+
+- test toast
+
 ## 3.2.1
 
 ### Patch Changes

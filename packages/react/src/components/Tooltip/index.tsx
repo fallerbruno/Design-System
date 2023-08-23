@@ -5,26 +5,22 @@ import {
   TooltipContent,
   TooltipContentContainer,
   TooltipPortal,
-  TooltipTrigger,
 } from './styles'
 import { Text } from '../Text'
 
-export interface TooltipProps extends ComponentProps<typeof TooltipContent> {
-  triggerElement: JSX.Element
-  content: string
+export interface TooltipProps extends ComponentProps<typeof TooltipContainer> {
+  title: string
+  description?: string
 }
 
-export function Tooltip(
-  { triggerElement, content }: TooltipProps,
-  { ...props },
-) {
+export function Tooltip({ title, description }: TooltipProps, { ...props }) {
   return (
-    <TooltipContainer>
-      <TooltipContentContainer {...props}>
-        <TooltipTrigger asChild>{triggerElement}</TooltipTrigger>
+    <TooltipContainer {...props}>
+      <TooltipContentContainer>
         <TooltipPortal>
           <TooltipContent>
-            <Text>{content}</Text>
+            <Text>{title}</Text>
+            {description && <Text>{description}</Text>}
             <TooltipArrow />
           </TooltipContent>
         </TooltipPortal>

@@ -7,11 +7,11 @@ export default {
   component: Tooltip,
   tags: ['autodocs'],
   args: {
-    triggerElement: <PlusCircle size={32} weight="bold" color="white" />,
+    children: <PlusCircle size={32} weight="bold" color="white" />,
     content: 'Tooltip Uhul!',
   },
   argTypes: {
-    triggerElement: {
+    children: {
       description: 'Element that will trigger the tooltip',
       control: {
         type: null,
