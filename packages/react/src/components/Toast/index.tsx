@@ -11,17 +11,15 @@ import {
 import { Text } from '../Text'
 import { X } from 'phosphor-react'
 
-export interface ToastProps extends ComponentProps<typeof ToastContainer> {
-  triggerElement: JSX.Element
+export type ToastProps = ComponentProps<typeof ToastContainer> & {
   title: string
-  description: string
-  open: boolean
+  description?: string
 }
 
-export function Toast({ title, description, open, ...props }: ToastProps) {
+export function Toast({ title, description, ...props }: ToastProps) {
   return (
     <ToastProvider swipeDirection="right">
-      <ToastContainer open={open} {...props}>
+      <ToastContainer {...props}>
         <ToastTitle>{title}</ToastTitle>
         <ToastDescription>
           <Text>{description}</Text>

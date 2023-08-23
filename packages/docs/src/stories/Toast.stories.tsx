@@ -14,7 +14,7 @@ const DemoToast = (props: ToastProps) => {
       >
         Abrir
       </Button>
-      <Toast open={isOpen} onOpenChange={setOpen} {...props} />
+      <Toast onOpenChange={setOpen} {...props} open={isOpen} />
     </div>
   )
 }
