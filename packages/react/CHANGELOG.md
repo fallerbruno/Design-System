@@ -1,5 +1,11 @@
 # @faller-bruno-ui/react
 
+## 3.2.0
+
+### Minor Changes
+
+- adjust button size
+
 ## 3.1.1
 
 ### Patch Changes

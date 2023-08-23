@@ -6,10 +6,9 @@ export const Button = styled('button', {
   borderRadius: '$sm',
   fontSize: '$sm',
   fontFamily: '$default',
-  minWidth: 120,
   boxSizing: 'border-box',
   textAlign: 'center',
-  padding: '$0 $6',
+  padding: '$1 $4',
 
   display: 'flex',
   alignItems: 'center',
