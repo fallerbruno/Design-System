@@ -35,6 +35,18 @@ export const Button = styled('button', {
     variant: {
       primary: {
         color: '$white',
+        backgroundColor: '$blue500',
+
+        '&:not(:disabled):hover': {
+          backgroundColor: '$blue300',
+        },
+
+        '&:disabled': {
+          backgroundColor: '$gray300',
+        },
+      },
+      success: {
+        color: '$white',
         backgroundColor: '$green500',
 
         '&:not(:disabled):hover': {
@@ -45,13 +57,79 @@ export const Button = styled('button', {
           backgroundColor: '$gray300',
         },
       },
+      error: {
+        color: '$white',
+        backgroundColor: '$red500',
+
+        '&:not(:disabled):hover': {
+          backgroundColor: '$red300',
+        },
+
+        '&:disabled': {
+          backgroundColor: '$gray300',
+        },
+      },
+      warning: {
+        color: '$white',
+        backgroundColor: '$yellow500',
+
+        '&:not(:disabled):hover': {
+          backgroundColor: '$yellow300',
+        },
+
+        '&:disabled': {
+          backgroundColor: '$gray300',
+        },
+      },
       secondary: {
+        color: '$blue300',
+        border: '2px solid $blue500',
+
+        '&:not(:disabled):hover': {
+          backgroundColor: '$blue500',
+          color: '$white',
+        },
+
+        '&:disabled': {
+          color: '$gray200',
+          boderColor: '$gray200',
+        },
+      },
+      secondarySuccess: {
         color: '$green300',
         border: '2px solid $green500',
 
         '&:not(:disabled):hover': {
           backgroundColor: '$green500',
+          color: '$black',
+        },
+
+        '&:disabled': {
+          color: '$gray200',
+          boderColor: '$gray200',
+        },
+      },
+      secondaryError: {
+        color: '$red300',
+        border: '2px solid $red500',
+
+        '&:not(:disabled):hover': {
+          backgroundColor: '$red500',
           color: '$white',
+        },
+
+        '&:disabled': {
+          color: '$gray200',
+          boderColor: '$gray200',
+        },
+      },
+      secondaryWarning: {
+        color: '$yellow300',
+        border: '2px solid $yellow500',
+
+        '&:not(:disabled):hover': {
+          backgroundColor: '$yellow500',
+          color: '$black',
         },
 
         '&:disabled': {

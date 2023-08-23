@@ -14,7 +14,17 @@ export default {
   },
   argTypes: {
     variant: {
-      options: ['primary', 'secondary', 'tertiary'],
+      options: [
+        'primary',
+        'secondary',
+        'tertiary',
+        'error',
+        'warning',
+        'success',
+        'secondaryError',
+        'secondaryWarning',
+        'secondarySuccess',
+      ],
       control: { type: 'inline-radio' },
     },
     size: {
@@ -32,10 +42,50 @@ export default {
 
 export const Primary: StoryObj<ButtonProps> = {}
 
+export const Success: StoryObj<ButtonProps> = {
+  args: {
+    variant: 'success',
+    children: 'success',
+  },
+}
+
+export const Error: StoryObj<ButtonProps> = {
+  args: {
+    variant: 'error',
+    children: 'Cancel',
+  },
+}
+export const Warning: StoryObj<ButtonProps> = {
+  args: {
+    variant: 'warning',
+    children: 'warning',
+  },
+}
+
 export const Secondary: StoryObj<ButtonProps> = {
   args: {
     variant: 'secondary',
     children: 'Create New',
+  },
+}
+
+export const SecondaryError: StoryObj<ButtonProps> = {
+  args: {
+    variant: 'secondaryError',
+    children: 'Cancel',
+  },
+}
+export const SecondaryWarning: StoryObj<ButtonProps> = {
+  args: {
+    variant: 'secondaryWarning',
+    children: 'warning',
+  },
+}
+
+export const SecondarySuccess: StoryObj<ButtonProps> = {
+  args: {
+    variant: 'secondarySuccess',
+    children: 'success',
   },
 }
 

@@ -14,14 +14,17 @@ export interface TooltipProps extends ComponentProps<typeof TooltipContent> {
   content: string
 }
 
-export function Tooltip(props: TooltipProps) {
+export function Tooltip(
+  { triggerElement, content }: TooltipProps,
+  { ...props },
+) {
   return (
     <TooltipContainer>
-      <TooltipContentContainer>
-        <TooltipTrigger asChild>{props.triggerElement}</TooltipTrigger>
+      <TooltipContentContainer {...props}>
+        <TooltipTrigger asChild>{triggerElement}</TooltipTrigger>
         <TooltipPortal>
           <TooltipContent>
-            <Text>{props.content}</Text>
+            <Text>{content}</Text>
             <TooltipArrow />
           </TooltipContent>
         </TooltipPortal>

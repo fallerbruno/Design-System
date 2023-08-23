@@ -6,10 +6,6 @@ export default {
   title: 'Data display/Tooltip',
   component: Tooltip,
   tags: ['autodocs'],
-  args: {},
-} as Meta<TooltipProps>
-
-export const Primary: StoryObj<TooltipProps> = {
   args: {
     triggerElement: <PlusCircle size={32} weight="bold" color="white" />,
     content: 'Tooltip Uhul!',
@@ -28,4 +24,6 @@ export const Primary: StoryObj<TooltipProps> = {
       },
     },
   },
-}
+} as Meta<TooltipProps>
+
+export const Primary: StoryObj<TooltipProps> = {}

@@ -20,7 +20,7 @@ export const TextArea = styled('textarea', {
 
   '&:focus': {
     outline: 0,
-    borderColor: '$green300',
+    borderColor: '$blue300',
   },
 
   '&:disabled': {
