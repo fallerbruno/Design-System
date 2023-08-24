@@ -1,0 +1,6 @@
+import{M as i}from"./chunk-S4VUQJ4A-cbe2801a.js";import{T as a}from"./TokensGrid-be18afca.js";import{l as m}from"./index-0f980d08.js";import{j as t}from"./jsx-runtime-0741ab7f.js";import{u as r}from"./index-5f8263fa.js";import"./iframe-0989a2c3.js";import"../sb-preview/runtime.js";import"./index-902e4630.js";import"./_commonjsHelpers-725317a4.js";import"./index-b9a7be4d.js";import"./chunk-6P7RB4HF-0bed2682.js";import"./index-d475d2ea.js";import"./index-d37d4223.js";import"./Combination-3ef4aec6.js";import"./index-356e4a49.js";function n(e){const o=Object.assign({h1:"h1",p:"p"},r(),e.components);return t.jsxs(t.Fragment,{children:[t.jsx(i,{title:"Tokens/Line Heights"}),`
+`,t.jsx(o.h1,{id:"line-height",children:"Line Height"}),`
+`,t.jsx(o.p,{children:"Essas são os Espacamentos de Linhas utulizadas no Faller Bruno UI."}),`
+`,`
+`,t.jsx(a,{tokens:m})]})}function p(e={}){const{wrapper:o}=Object.assign({},r(),e.components);return o?t.jsx(o,{...e,children:t.jsx(n,{...e})}):n(e)}const c=()=>{throw new Error("Docs-only story")};c.parameters={docsOnly:!0};const s={title:"Tokens/Line Heights",tags:["stories-mdx"],includeStories:["__page"]};s.parameters=s.parameters||{};s.parameters.docs={...s.parameters.docs||{},page:p};const H=["__page"];export{H as __namedExportsOrder,c as __page,s as default};
+//# sourceMappingURL=line-heigths.stories-de0d159b.js.map

@@ -1,0 +1,6 @@
+import{M as a}from"./chunk-S4VUQJ4A-cbe2801a.js";import{T as i}from"./TokensGrid-be18afca.js";import{r as m}from"./index-0f980d08.js";import{j as r}from"./jsx-runtime-0741ab7f.js";import{u as n}from"./index-5f8263fa.js";import"./iframe-0989a2c3.js";import"../sb-preview/runtime.js";import"./index-902e4630.js";import"./_commonjsHelpers-725317a4.js";import"./index-b9a7be4d.js";import"./chunk-6P7RB4HF-0bed2682.js";import"./index-d475d2ea.js";import"./index-d37d4223.js";import"./Combination-3ef4aec6.js";import"./index-356e4a49.js";function s(o){const t=Object.assign({h1:"h1",p:"p"},n(),o.components);return r.jsxs(r.Fragment,{children:[r.jsx(a,{title:"Tokens/Radius"}),`
+`,r.jsx(t.h1,{id:"border-radius",children:"Border Radius"}),`
+`,r.jsx(t.p,{children:"Essas são os Arredondamentos de Borda utulizadas no Faller Bruno UI."}),`
+`,`
+`,r.jsx(i,{tokens:m})]})}function p(o={}){const{wrapper:t}=Object.assign({},n(),o.components);return t?r.jsx(t,{...o,children:r.jsx(s,{...o})}):s(o)}const d=()=>{throw new Error("Docs-only story")};d.parameters={docsOnly:!0};const e={title:"Tokens/Radius",tags:["stories-mdx"],includeStories:["__page"]};e.parameters=e.parameters||{};e.parameters.docs={...e.parameters.docs||{},page:p};const R=["__page"];export{R as __namedExportsOrder,d as __page,e as default};
+//# sourceMappingURL=raddi.stories-1d573f79.js.map
