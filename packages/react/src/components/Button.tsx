@@ -43,7 +43,7 @@ export const Button = styled('button', {
         },
 
         '&:disabled': {
-          backgroundColor: '$gray300',
+          backgroundColor: '$gray400',
         },
       },
       success: {
@@ -55,7 +55,7 @@ export const Button = styled('button', {
         },
 
         '&:disabled': {
-          backgroundColor: '$gray300',
+          backgroundColor: '$gray400',
         },
       },
       error: {
@@ -67,7 +67,7 @@ export const Button = styled('button', {
         },
 
         '&:disabled': {
-          backgroundColor: '$gray300',
+          backgroundColor: '$gray400',
         },
       },
       warning: {
@@ -79,7 +79,7 @@ export const Button = styled('button', {
         },
 
         '&:disabled': {
-          backgroundColor: '$gray300',
+          backgroundColor: '$gray400',
         },
       },
       secondary: {

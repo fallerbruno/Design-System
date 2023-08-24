@@ -1,5 +1,11 @@
 # @faller-bruno-ui/react
 
+## 3.2.5
+
+### Patch Changes
+
+- ajust disabled color
+
 ## 3.2.4
 
 ### Patch Changes
